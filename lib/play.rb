@@ -40,4 +40,5 @@ def play(board)
     turn(board)
     until board[0] == "X"
       turn(board)
+    end
 end
