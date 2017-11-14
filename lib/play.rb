@@ -37,7 +37,7 @@ end
 
 # Define your play method below
 def play(board)
-  board2 = Array.new(9, "X")
+  board2 = ["X", "X", "X", "X", "X", "X", "X", "X", "X"]
     turn(board)
     until board = board2
   turn(board)
